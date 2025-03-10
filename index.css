@@ -30,7 +30,7 @@ header {
 
 /* main section */
 .main {
-    background: url('BG.jpg') no-repeat center center/cover;
+    background: url('images/BG.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     align-items: center;
