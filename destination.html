@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="destination-title"></h1>
+        <img id="destination-image" class="destination-image" src="" alt="Destination Image">
+        <p id="destination-description"></p>
+
+        <div class="itinerary">
+            <h3>Itinerary</h3>
+            <ul id="itinerary-list"></ul>
+        </div>
+
+        <div id="map" style="height: 300px;"> </div>
+
+        <div class="booking-form">
+            <h3>Book your Trip</h3>
+            <form id="booking-form">
+                <label for="traveler-name">Name:</label>
+                <input type="text" id="traveler-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="travelers">Number of Travelers:</label>
+                <input type="number" id="travelers" required>
+
+                <label for="travel-date">Travel Date:</label>
+                <input type="date" id="travel-date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="details.js"></script>
+    
+</body>
+</html>
