@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "Paris, France",
+        "image": "images/paris.jpg",
+        "description": "The city of ligths and love, famous for its art, fashion, and landmarks.",
+        "details": {
+            "long_description": "Paris, the capital of France, it known for its iconic Eiffel Tower, and world-class museums like the Louvre, and charming cafés. Explore the history",
+            "itinerary": [
+                "Day 1: Arrive in Paris, visit the Eiffel Tower, and explore the Seine River.",
+                "Day 2: Discover the Louvre Museum and stroll through the Champs-Elysees.",
+                "Day 3: Visit Montmartre, Sacré-Cæur Basilica, and enjoy a Seine river cruise."
+                
+            ],
+            "location": {
+                "latitude": 48.8566,
+                "longitude": 2.3522
+            }
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Geneva, Switzerland",
+        "image": "images/Geneva.png",
+        "description": "Explore the city that is known for its stunning natural beauty and home for many international organizations like the UN.",
+        "details": {
+            "long_description": "Geneva, known for its scenic locations, outdoor activities, and international hub",
+            "itinerary": [
+                "Day 1: Arrive in Geneva, visit lake Geneva and walk through the Old Town.",
+                "Day 2: Visit the St. Pierre Cathedral and go to Choco Pass to taste test varities of chocolates.",
+                "Day 3: Visit the Jet d'Eau water fountain and later explore the birthplace of watchmaking."
+                
+            ],
+            "location": {
+                "latitude": 46.2044,
+                "longitude": 6.1432
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "Osaka, Japan",
+        "image": "images/osaka.png",
+        "description": "Explore the vibrant, bustling city infused with culture and history.",
+        "details": {
+            "long_description": "Osaka, known for its modern architecture, nightlife and hearty street food",
+            "itinerary": [
+                "Day 1: Arrive in Osaka, visit Osaka Castle and end the night by going to the downtown Minami.",
+                "Day 2: Have fun time at the Universal Studio.",
+                "Day 3: Explore Kuromon market and Tenjin Matsuri for some fireworks."
+                
+            ],
+            "location": {
+                "latitude": 34.6937,
+                "longitude": 135.5023
+            }
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sydney, Australia",
+        "image": "images/sydney.jpg",
+        "description": "Explore the city that is around beautiful bays in the world with sparkling beaches.",
+        "details": {
+            "long_description": "Sydney, known for its harbourfront Opera House, circular quay port, and royal botanic garden",
+            "itinerary": [
+                "Day 1: Explore the Sydney Opera House, and climb the harbour bridge to veiw the city.",
+                "Day 2: Explore the charm of Blue Mountains.",
+                "Day 3: Visit the Taronga Zoo and ride the ferry to Manly."
+                
+            ],
+            "location": {
+                "latitude": 33.8688,
+                "longitude": 151.2093
+            }
+        }
+    },
+    {
+        "id": 5,
+        "name": "Kerala, India",
+        "image": "images/kerala.png",
+        "description": "Visit the God's Own Country which is diverse in landscapes and rich cultural heritage.",
+        "details": {
+            "long_description": "Kerala, known for its palam-lined beaches and backwaters, mountain slopes of tea, coffee and spice plantations and wildlife",
+            "itinerary": [
+                "Day 1: Go on the houseboat and experience the authentic Keralite cusines.",
+                "Day 2: Visit Eravikulam national park, and visit the tea plantations.",
+                "Day 3: Visit the Marari beach and taste the nearby local cusines."
+                
+            ],
+            "location": {
+                "latitude": 10.1632,
+                "longitude": 76.6413
+            }
+        }
+    },
+    {
+        "id": 6,
+        "name": "Cape Town, South Africa",
+        "image": "images/capetown.png",
+        "description": "A city that known as mother city, filled with mountains and seas ",
+        "details": {
+            "long_description": "Known for its breathtaking natural landscapes, home of economic and cultural hub, and a mix of multiple culture influences ",
+            "itinerary": [
+                "Day 1: Experience the table mountain aerial cableway .",
+                "Day 2: Visit Kirstenbosch National Botanical Garden and enjoy your rest of the day at Bloubergstrand beach.",
+                "Day 3: Visit District Six Museum and Castle of Good Hope."
+                
+            ],
+            "location": {
+                "latitude": 33.9221,
+                "longitude": 18.4231
+            }
+        }
+    }
+]
