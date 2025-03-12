@@ -3,11 +3,11 @@
         "id": 1,
         "name": "Paris, France",
         "image": "images/paris.jpg",
-        "description": "The city of ligths and love, famous for its art, fashion, and landmarks.",
+        "description": "The city of lights and love, famous for its art, fashion, and landmarks.",
         "details": {
-            "long_description": "Paris, the capital of France, it known for its iconic Eiffel Tower, and world-class museums like the Louvre, and charming cafés. Explore the history",
+            "long_description": "Paris, the capital of France, it is known for its iconic Eiffel Tower, and world-class museums like the Louvre, and charming cafés. Explore the history",
             "itinerary": [
-                "Day 1: Arrive in Paris, visit the Eiffel Tower, and explore the Seine River.",
+                "Day 1: Visit the Eiffel Tower, and explore the Seine River.",
                 "Day 2: Discover the Louvre Museum and stroll through the Champs-Elysees.",
                 "Day 3: Visit Montmartre, Sacré-Cæur Basilica, and enjoy a Seine river cruise."
                 
@@ -23,11 +23,11 @@
         "id": 2,
         "name": "Geneva, Switzerland",
         "image": "images/Geneva.png",
-        "description": "Explore the city that is known for its stunning natural beauty and home for many international organizations like the UN.",
+        "description": "Explore the city that is known for its stunning natural beauty and home for many international organizations.",
         "details": {
-            "long_description": "Geneva, known for its scenic locations, outdoor activities, and international hub",
+            "long_description": "Geneva, known for its scenic locations, outdoor activities, and an international hub",
             "itinerary": [
-                "Day 1: Arrive in Geneva, visit lake Geneva and walk through the Old Town.",
+                "Day 1: Visit lake Geneva and walk through the Old Town.",
                 "Day 2: Visit the St. Pierre Cathedral and go to Choco Pass to taste test varities of chocolates.",
                 "Day 3: Visit the Jet d'Eau water fountain and later explore the birthplace of watchmaking."
                 
@@ -44,9 +44,9 @@
         "image": "images/osaka.png",
         "description": "Explore the vibrant, bustling city infused with culture and history.",
         "details": {
-            "long_description": "Osaka, known for its modern architecture, nightlife and hearty street food",
+            "long_description": "Osaka, known for its modern architecture, nightlife, and hearty street food",
             "itinerary": [
-                "Day 1: Arrive in Osaka, visit Osaka Castle and end the night by going to the downtown Minami.",
+                "Day 1: Visit Osaka Castle and end the night by going to the downtown Minami.",
                 "Day 2: Have fun time at the Universal Studio.",
                 "Day 3: Explore Kuromon market and Tenjin Matsuri for some fireworks."
                 
@@ -65,8 +65,8 @@
         "details": {
             "long_description": "Sydney, known for its harbourfront Opera House, circular quay port, and royal botanic garden",
             "itinerary": [
-                "Day 1: Explore the Sydney Opera House, and climb the harbour bridge to veiw the city.",
-                "Day 2: Explore the charm of Blue Mountains.",
+                "Day 1: Explore the Sydney Opera House, and climb the Harbour Bridge to view the city.",
+                "Day 2: Explore the charm of the Blue Mountains.",
                 "Day 3: Visit the Taronga Zoo and ride the ferry to Manly."
                 
             ],
@@ -80,11 +80,11 @@
         "id": 5,
         "name": "Kerala, India",
         "image": "images/kerala.png",
-        "description": "Visit the God's Own Country which is diverse in landscapes and rich cultural heritage.",
+        "description": "God's Own Country, diverse in landscapes and rich cultural heritage.",
         "details": {
-            "long_description": "Kerala, known for its palam-lined beaches and backwaters, mountain slopes of tea, coffee and spice plantations and wildlife",
+            "long_description": "Kerala, known for its plam-lined beaches and backwaters, mountain slopes of tea, coffee and spice plantations and wildlife",
             "itinerary": [
-                "Day 1: Go on the houseboat and experience the authentic Keralite cusines.",
+                "Day 1: Go on the houseboat and experience the authentic Keralite cuisines.",
                 "Day 2: Visit Eravikulam national park, and visit the tea plantations.",
                 "Day 3: Visit the Marari beach and taste the nearby local cusines."
                 
@@ -99,7 +99,7 @@
         "id": 6,
         "name": "Cape Town, South Africa",
         "image": "images/capetown.jpg",
-        "description": "A city that known as mother city, filled with mountains and seas ",
+        "description": "A city that is known as the Mother City, filled with mountains and seas ",
         "details": {
             "long_description": "Known for its breathtaking natural landscapes, home of economic and cultural hub, and a mix of multiple culture influences ",
             "itinerary": [
