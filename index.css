@@ -45,9 +45,9 @@ header {
 }
 
 .main-content {
-    background: rgba(255, 238, 238, 0.517);
-    padding: 5px;
-    border-radius: 60px;
+    background: rgba(255, 238, 238, 0.459);
+    padding: 10px;
+    border-radius: 20px;
     position: relative;
 }
 
