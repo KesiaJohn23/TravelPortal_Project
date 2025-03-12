@@ -12,11 +12,15 @@ body {
 #destination-cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 15px;
 }
 
 .destination-card {
-    width: 300px;
+    width: 180px;
+    max-width: 180px;
+    height: 250px;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 15px;
@@ -26,17 +30,21 @@ body {
 
 .destination-card img {
     width: 100%;
-    height: auto;
+    height: 100px;
+    max-width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .destination-card h2 {
-    font-size: 1.5rem;
-    margin: 10px 0;
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
 .destination-card p {
     font-size: 1rem;
     color: #555;
+    flex-grow: 1;
 }
 
 .destination-card a {
@@ -50,7 +58,7 @@ body {
 }
 
 .destination-card a:hover {
-    background-color: #0056b3;
+    background-color: #1f3bac;
 }
 
 .container {
@@ -86,3 +94,18 @@ body {
     padding: 10px;
     margin: 5px 0;
 }
+@media (max-width: 768px) {
+
+    .destination-card {
+        width: 160%;
+        height: auto;
+        
+    }
+
+    .destination-image {
+        height: 90px;
+        max-width: 90px;
+    }
+}
+
+
