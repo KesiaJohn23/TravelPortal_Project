@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     itineraryList.appendChild(li);
                 });
 
+                //leaflet Map
                 const map = L.map("map").setView([destination.details.location.latitude, destination.details.location.longitude], 10);
                 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                     attribution: "© OpenStreetMap contributors"
@@ -43,16 +44,19 @@ document.addEventListener("DOMContentLoaded", () => {
             const travelers = parseInt(document.getElementById("travelers").value, 10);
             const travelDate = document.getElementById("travel-date").value;
 
+            //checks for all fields filled 
             if (!name || !email || !travelers || !travelDate) {
                 alert("Please fill out all fields.");
                 return;
             }
 
+            //checks for future travel date 
             if (new Date(travelDate) < new Date()) {
                 alert("Travel date must be in the future.");
                 return;
             }            
 
+            //checks for travellers less 1 
             if (travelers < 1) {
                 alert("Number of travelers must be at least 1.");
                 return;
